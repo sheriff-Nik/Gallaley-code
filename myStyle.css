@@ -1,0 +1,222 @@
+body{margin:0;padding:0;}
+#header{
+   padding:0;
+   margin:0;
+   height:40%;
+   color:red;
+   background-color:lightblack;
+   box-shadow:15px 10px 10px lightblue;
+   position:relative;
+   overflow: hidden;
+   font-size:20px;
+}#span_header{
+  text-align:center;
+  height:50px;
+  font-weight:bold;
+}#div1{
+  float:left;
+  margin:4px;
+  position:relative;
+  text-align:center;
+  width:;
+}#main_area{
+ margin:4px;
+}#head_part{
+ margin:10px;
+ padding:10px;
+ position:relative;
+ overflow:s;
+ width:35%;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0,0, 0.19);
+ height:1000px;
+
+}#head_part_image{
+ position:relative;
+ margin:25px 0px 0px 25px ;
+ height:350px;
+ width:350px;
+ border:1px solid black;
+ border-radius:50%;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0,0, 0.19);
+}#span_img{
+ position:absolute;
+ top:100px;
+ left:100px;
+}#details{
+ border:1px solid #A9A9A9;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0,0, 0.19);
+}#header_details{
+ background-color: #A9A9A9;
+ height:45px;
+ font-weight:bold;
+ font-size:25px;
+ padding:15px 0px 0px 0px;
+ text-align:center;
+
+}#details_content{
+ padding:0px 0px 0px 15px;
+}#body_part{
+ width:60%;
+ margin:10px;
+ height:1020px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0,0, 0.19);
+}#body_part, #head_part, #footer{float:left;}
+#header_Galley{
+ background-color:lightgreen;
+ height:150px;
+}#icon_gallery{
+ height:100px;
+ width:115px;
+ border-radius:49%;
+}#img_HG , #h2_HG{float:left;margin:20px;}#h2_HG{
+ font-size:45px;
+ font-weight:bold;
+ text-align:center;
+}#Gallery{
+ position:relative;
+ margin:30px;
+ width:800px;
+ height:500px;
+ border:2px solid black;
+ overflow:hidden;
+}#changeImg{
+ background-color:lightgreen; border-radius:5px;
+ width:300px; margin-left:10px;
+ height:80px; top:-17px;
+ text-align:center; display:none;
+ font-size:20px; color:white;
+ padding:4px;
+ position:absolute;
+}.changeImg_success{
+ color:yellow;
+ background-color:lightblue;
+}#footer{
+ background-color:khaki;
+ width:100%;
+ font-size:30px;
+ font-weight:bold;
+ text-align:center;
+}#footer ul{list-style-type:none;}
+#footer ul li:hover{
+ background-color:lightgrey;
+ cursor:pointer;
+}#Gallery_info{
+ padding-left:28px;
+}#linkDown{
+  height:100%;
+  display:none;
+  position:absolute;
+  background-color:black;
+  width:100%;
+  color:lightgreen;
+  z-index:1;
+}#linkDown_content{
+  bacground-color:white;
+
+}#close_nav{
+  position:absolute;
+  top:10px;
+  right:20px;
+  font-size:45px;
+  cursor:pointer;
+}#open_nav{
+  position: absolute;
+  font-weight:bold;
+  cursor:pointer;
+  margin-left: 10px 20px 0px 0px;
+}#open_side_nav{
+  margin:20px;
+  font-weight:bold;
+  font-size:25px;
+  cursor:pointer;
+}#side_nav{
+  color:white;
+  background-color:black;
+  height:1020px;
+  width:400px;
+  font-size:25px;
+  padding:10px;
+  border-right:1px solid black;
+  z-index: 1;
+  position: absolute;
+  left:-450px;
+}#side_nav ul{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}#side_nav ul li a{
+  text-decoration:none;
+  color:white;
+  padding:4px;
+  cursor:pointer;
+
+}#side_nav ul li{
+  width:250px;
+}#close_side_nav {
+  position:absolute;
+  top:10px;
+  right:20px;
+  font-size:45px;
+  cursor:pointer;
+
+}#headGallary{
+  font-size:30px;
+  text-align:center;
+}#update_gallary{
+  color:green;
+  font-size:25px;
+}#prev{
+ cursor:pointer;
+ margin-right:25px;
+}#updateInfoGallary{
+ cursor:pointer;
+ margin:65px;
+}#next{
+ cursor:pointer;
+ margin-left:125px;
+}#updateInfo{
+ background-color:grey;
+ border-radius:4px;
+ margin:60px;
+ padding:40px;
+ z-index:1;
+ display:none;
+ height:60%;
+ width:70% auto;;
+ left:80px;
+ top:500px;
+ font-size:25px;
+ position:absolute;
+}#log_in{
+ border-radius: 4px;
+ width: 95px;
+ height: 50px;
+ font-size: 25px;
+ font-family: forte;
+ cursor: pointer;
+}#Sign_in{
+ border-radius: 4px;
+ width: 150px;
+ height: 50px;
+ font-size: 25px;
+ font-family: forte;
+ cursor: pointer;
+}#log_in_details{
+ background-color:lightgreen;
+ width:96%;
+ color:blue;
+ padding:6px;
+ display:none;
+ border-radius:4px;
+}#sign_in_details{
+ background-color:lightgreen;
+ width:96%;
+ color:blue;
+ border-radius:4px;
+ padding:10px;
+ display:none;
+}#login1, #login2,#signin1,#signin2,#signin3,#signin4{
+ width:90%;
+ border-radius:4px;
+ height:45px;
+}

@@ -1,0 +1,181 @@
+<html>
+   <head>
+       <title> floating Divs </title>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" type="text/css" href="myStyle.css">
+       <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+       <script> src="js/bootstrap.min.js" </script>
+  </head>
+<body class="container-fluid">
+  <div id="linkDown"><br><br>
+     <span id="close_nav">  &times; </span>
+
+       <p id="headGallary">
+          Image Gallery
+       </p>
+       <div style="float:left;">
+       <img src="images (3).jpg" class="img-responsive" alt="my Img Gallery">
+       <img src="amazing bulbs.jpg"  class="img-responsive" alt="my Img Gallery">
+       <img src="download (3).jpg"  class="img-responsive" alt="my Img Gallery">
+       <img src="download (5).jpg"  class="img-responsive" alt="my Img Gallery">
+       <img src="images (1).jpg"  class="img-responsive" alt="my Img Gallery">
+       <img src="images (3).jpg"  class="img-responsive" alt="my Img Gallery">
+
+     </div>
+  </div>
+  <div id="side_nav">
+
+    <img src="images (1).jpg" alt="profile Img"><span id="close_side_nav">  &times; </span> <br><br>
+    <button id="log_in"> <span>Log In</span></button>
+    <button id="sign_in"><span>Sign In</span></button>
+    <div id="log_in_details">
+        <span>User Name:</span><br>
+        <input type="text" id="login1" placeholder="Enter your Username"/><br>
+        <span>Password:</span><br>
+        <input type="password" id="login2"/> <br>
+        <p style="text-align:right;"><input type="button" value="Submit" id="login-submission"/></p>
+    </div>
+    <div id="sign_in_details">
+        <span>First Name:</span><br>
+        <input type="text" id="signin1" placeholder="Enter your first-name"/><br>
+        <span>second Name:</span><br>
+        <input type="text"  id="signin2" placeholder="Enter your second-name"/><br>
+        <span>Email Account:</span><br>
+        <input type="email"  id="signin3" placeholder="Enter your email"/><br>
+        <span>Password:</span><br>
+        <input type="password" id="signin4"/>
+        <p style="text-align:right;"><input type="button" value="Submit" id="sign-in-submission"/></p>
+    </div>
+
+    <hr>
+    <ul>
+       <li><a href="floatingdivs.html">Home</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Settings</a></li>
+       <li><a href="#">Contact</a></li>
+       <li><a href="#">Help</a></li>
+    </ul>
+    <hr>
+  </div> <!-- side nav end -->
+
+  <div id="bodyArea" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  <header id="header" class="jumbotron">
+    <div class="row"><span id="open_side_nav">&#9776;</span><span id="open_nav"><u>Images</u></span>
+       <div id="span_header">This is the Header
+       </div>
+    </div>
+
+    <div id="div1" class="col-lg-4 col-md-3 col-sm-12 col-xs-12">    here i will create a simple</div>
+   <div id="div1" class="col-lg-4 col-md-3 col-sm-12 col-xs-12">
+      some text <br> This is nice
+    </div>
+    <div id="div1" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">some another text again<br>aha iwill bro yoiw euhheoiihfo eihfoiehfeiohf eihhfoihoirhh<br>
+    </div>
+
+ </header>
+<!--
+ <div id="main_area" class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    <div id="head_part">
+      <img src="interior-design.jpg" alt="upload image" id="head_part_image" class="img-responsive">
+    <p>
+      <span>Upload Img:</span><br>
+      <input type="file"  id="uploadin"> <input type="button" value="submit" id="upload_btn"><br>
+     <div style="position:relative;">
+     <div id="changeImg"><b>change Image<b></div></div>
+      </p><br>
+    <div id="details"><div id="header_details"> Details: </div>
+      <div id="details_content">
+       <p>Name:
+        <input type="text" placeholder="Enter 1st Name">
+        <input type="text" placeholder="Enter 2nd Name">
+       </p>
+       <p>Age:
+        <input type="number">
+       </p>
+        <p>State:
+          <select>
+            <option>Nairobi</option>
+            <option>Kiambu</option>
+            <option>Meru</option>
+            <option>Nakuru</option>
+            <option>Isiolo</option>
+          </select>
+        </p>
+      </div>  <!-- details_content end -->
+      <!--
+   </div>    <!-- details end -->
+   <!--
+   <br>
+    <div id="details"><div id="header_details">Tags: </div>
+     <div id="details_content">
+      <p>Travel:
+        <input type="text" placeholder="Enter place travelled">
+        <input type="button" value="save" id ="savetags">
+      </p>
+      <p>Hobbies:
+        <input type="text" placeholder="Enter your hobbies">
+        <input type="button" value="save">
+      </p>
+      <p>Education:
+        <input type="text" placeholder="Enter what you've studied">
+        <input type="button" value="save">
+      </p>
+     </div>  <!-- details_content end -->
+     <!--
+   </div>  <!-- details end -->
+   <!--
+    </div>  <!-- head_part end -->
+    <!--
+    <div id="body_part" class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+        <div id="header_Galley">
+            <div id="img_HG"> <img src="images (16).jpg" id="icon_gallery">  </div>
+            <div id="h2_HG"><br> My Gallery Fading Effects.,</div>
+        </div> <!-- header_Gallery end -->
+        <!--
+       <div id="Gallery">
+                <div><img src="images (16).jpg" alt="meow" width="800px" height="500px"> </div>
+
+       </div> <!-- Gallery end -->
+       <!--
+	     <div id="updateInfo">
+          <h3>Enter display image. <br> <input type="file" id="dp"/> <input type="button" value="save" id="save_dp"/></h3> <br>
+          <p>Enter title heading of picture displayed. <br><input type="text" id="title_dp"/> <input type="button" value="save" id="title_dp"/></p> <br>
+          <p>Enter the date posted. <br><input type="text" id="title_dp"/> <input type="button" value="save" id="title_dp"/></p> <br>
+          <p>Enter Infomation about photo. <br><input type="textarea" id="text_dp"/> <input type="button" value="save" id="text_dp"/></p> <br>
+          <input type="button" value="submit" id="save_info"/>
+        </div>   <!--updateInfo end -->
+        <!--
+       <div id="Gallery_info">
+          <h1>Title Heading Of Pic in display</h1>
+          <p><span><b>Posted:</b></span> date</p>
+          <h2>About Photo:</h2>
+          <p>porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae               justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla</p>
+<div id="update_gallary" class="well">
+ <span id="prev">Prev</span>
+<span id="updateInfoGallary" >Enter your Info</span>
+<span id="next"> Next </span>
+</div>
+       </div> <!-- Gallery end -->
+       <!--
+    </div>  <!-- body_part end -->
+
+<!--
+    <div id="footer" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+       <ul>
+          <li> contact us</li>
+          <li> About</li>
+          <li><a> Download app</a></li>
+          <li>Like Us</li>
+       </ul>
+    </div> <!-- footer end -->
+<!--
+  </div>    <!-- main_area end -->
+
+<!--
+
+</div>    <!-- bodyPart end -->
+
+       <script src="jquery.js" type="text/javascript"></script>
+       <script src="myjQuery.js" type="text/javascript"></script>
+</body>
+</html>
